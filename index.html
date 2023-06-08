@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="flex-container">
+      <div class="section1">
+        <p class="heading">Your Result</p>
+        <div class="score">
+          <p class="value">76</p>
+           <p class="outof"> of 100 </p>
+        </div>
+        <p class="Remarks">Great</p>
+          <p>Your Score Card higher than 65% of<br> the people who have taken<br> these tests.</p>
+      </div>
+      <div class="section2">
+        <h3 class="title">Summary</h3>
+        <div class="rows">
+          <div class="row" id="red">
+            <p><img src="assets/images/icon-reaction.svg" alt="icon">&nbsp;&nbsp; <strong class="react">Reaction</strong></p>
+            <p><strong class="marks">80</strong>&nbsp;/100&nbsp;</p>
+          </div>
+          <div class="row" id="yellow">
+            <p><img src="assets/images/icon-memory.svg" alt="icon">&nbsp;&nbsp; <strong class="mem">Memory</strong></p>
+            <p><strong class="marks">92</strong>&nbsp;/100&nbsp;</p>
+          </div>
+          <div class="row" id="green">
+            <p><img src="assets/images/icon-verbal.svg" alt="icon"> &nbsp;&nbsp;<strong class="verb">Verbal</strong></p>
+            <p><strong class="marks">61</strong>&nbsp;/100&nbsp;</p>
+          </div>
+          <div class="row" id="teal">
+            <p><img src="assets/images/icon-visual.svg" alt="icon">&nbsp;&nbsp; <strong class="vis">Visual</strong></p>
+            <p><strong class="marks">72</strong>&nbsp;/100&nbsp;</p>
+          </div>
+        </div>
+        <div id="btn">
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pranav Chaudhary</a>.
+  </div>
+</body>
+</html>
