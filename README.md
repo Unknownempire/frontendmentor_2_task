@@ -1,6 +1,6 @@
 # Frontend Mentor - Results summary component
 
-![desktop-view](assets/desktop.jpg)
+![desktop-view](assets/images/desktop.png)
 
 ![desktop-action](assets/images/desktop-action.png)
 
