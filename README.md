@@ -1,11 +1,21 @@
 # Frontend Mentor - Results summary component
 
-![desktop-view][desktop.png]
+![desktop-view][assets/images/desktop.png]
 
-![desktop-action][desktop-action.png]
+![desktop-action][assets/images/desktop-action.png]
 
-![mobile-view][mobile.png]
+![mobile-view][assets/images/mobile.png]
 
 ## Built with
-- HTML and CSS and data provided in data.json.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+## Author
+
+- Website - [Pranav Chaudhary](https://www.your-site.com)
+- Frontend Mentor - [@Unknownempire](https://www.frontendmentor.io/profile/Unknownempire)
+
 
