@@ -1,10 +1,10 @@
 # Frontend Mentor - Results summary component
 
-![desktop-view][design/desktop.jpg]
+![desktop-view](assets/desktop.jpg)
 
-![desktop-action][/assets/images/desktop-action.png]
+![desktop-action](assets/images/desktop-action.png)
 
-![mobile-view][/assets/images/mobile.png]
+![mobile-view](assets/images/mobile.png)
 
 ## Built with
 - Semantic HTML5 markup
